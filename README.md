@@ -6,7 +6,8 @@ Nuestro equipo de trabajo esta conformado por:
 - Ayelén Raquel Virreyra Ruiz
 - Florencia Villa
 - Martin Luciano Leonel Salas
-- Macarena Aylin Lighuen Sanchez 
+- Macarena Aylin Lighuen Sanchez
+
 Sitios de referencia:
 - https://latiendadelosminerales.com/ordenados-por-minerales
 - https://www.etsy.com/es/market/artesan%C3%ADa_y_macram%C3%A9
