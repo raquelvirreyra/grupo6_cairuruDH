@@ -4,7 +4,7 @@ Nuestra pagina web será utilizada para el manejo de pedidos y control de stock 
 Descripcion de los integrantes del equipo:
 Nuestro equipo de trabajo esta conformado por:
 - Ayelén Raquel Virreyra Ruiz
-- Florencia Villa
+- Florencia Mariel Villa
 - Martin Luciano Leonel Salas
 - Macarena Aylin Lighuen Sanchez
 
