@@ -13,3 +13,6 @@ Sitios de referencia:
 - https://piedrasencordoba.com.ar/
 - https://www.makramon.com/productos/
 - https://www.amordehilo.com.ar/
+
+Link del tablero de trabajo:
+https://trello.com/invite/srdinox/ATTI2a5a5d7326a9fc871a4fce3361da912c94838484

@@ -1,0 +1,73 @@
+/*
+    Paleta de colores
+    Beige: #ECEAE8
+    Marron oscuro: #4c2203
+*/
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 1em;
+}
+
+.nav-container {
+    display: flex;
+}
+
+.nav-img {
+    width: 20%;
+}
+
+.nav-img img {
+    height: 7em;
+}
+
+.nav-ul {
+    list-style: none;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-login {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.my-button-style {
+    background-color: #703104;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 0;
+}
+
+.my-button-style:hover{
+    background-color: #4c2203;
+}
+
+.nav-ul-a {
+    padding: 1em;
+}
+
+.nav-ul-a:hover {
+    border-top: 3px solid #703104;
+    border-bottom: 3px solid #703104;
+    color: #703104;
+}
