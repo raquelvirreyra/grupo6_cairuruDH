@@ -1,0 +1,284 @@
+/*
+    Paleta de colores
+    Beige: #ECEAE8
+    Naranja clarito: #d1b991;
+    Marron clarito: #703104;
+    Marron oscuro: #4c2203
+    Verde muy clarito: #E9F4E9
+    Verde: rgb(123, 153, 79);
+    Verde oscuro: rgb(90, 107, 71);
+*/
+
+@media (min-width: 769px) {
+    .section-articles {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 -10px; 
+    }
+
+    .my-article {
+        width: calc(25% - 20px); 
+        margin: 10px; 
+    }
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    background-image: url('./../img/banner.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.middle-section-logo {
+    text-align: center;
+    padding: 1em;
+}
+
+.middle-section-logo img {
+    height: 9em;
+}
+
+header {
+    text-align: center;
+    padding: 1em;
+}
+
+.nav-container {
+    display: flex;
+}
+
+.nav-img {
+    width: 20%;
+}
+
+.nav-img img {
+    height: 6em;
+}
+
+.nav-ul {
+    list-style: none;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-login {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.my-button-style {
+    background-color: #703104;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 0;
+}
+
+.my-button-style:hover{
+    background-color: #4c2203;
+}
+
+.nav-ul-a {
+    padding: 1em;
+}
+
+.nav-ul-a:hover {
+    border-top: 3px solid #703104;
+    border-bottom: 3px solid #703104;
+    color: #703104;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.section-one {
+    padding: 1em 1em 3em 1em;
+    text-align: center;
+    background-color: white;
+}
+
+.section-title {
+    padding: 1em;
+    font-size: 30px;
+}
+
+.section-articles{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.my-article {
+    text-decoration: none;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.my-article img {
+    width: 100%;
+}
+
+.my-article:hover {
+    transform: scale(0.9);
+}
+
+.my-article-description {
+    background-color: #4c2203;
+    color: white;
+    padding: 10px;
+}
+
+.section-two {
+    background-color: #E9F4E9;
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-text {
+    width: 50%;
+    padding: 1em;
+    text-align: end;
+}
+
+.section-description {
+    padding: 1em;
+}
+
+.section-img {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.section-img img{
+    height: 400px;
+}
+
+footer {
+    background-color: #4c2203;
+    color: white;
+    padding: 5em 5em 1em 5em;
+}
+
+.footer-col-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3em;
+}
+
+.footer-row {
+    border-top: 1px solid white;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.payments img,
+.shipments img {
+    height: 1em;
+}
+
+.footer-col ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-col ul li a:hover{
+    text-decoration: underline;
+    color: #d1b991;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding-top: 10px;
+}
+
+.footer-col ul li {
+    padding: 5px 5px 5px 0;
+}
+
+.footer-col span {
+   font-weight: bold;
+}
+
+.social-networks,
+.payments,
+.shipments {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.social-networks button {
+    padding: 1em;
+    border: 0;
+    border-radius: 25%;
+    cursor: pointer;
+    width: 2.5em;
+    height: 2.5em;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-networks button i {
+    font-size: 20px;
+}
+
+.social-networks button:hover {
+    background-color: #d1b991;
+}
+
+.my-article:hover .my-article-description{
+    background-color: rgb(52, 74, 28);
+}
+
+.section-title-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.section-title-img img{
+    height: 5px;
+}
+
+.section-text .section-title {
+    padding: 0 16px 16px 0;
+}
+
+.section-two .section-title .section-title-img {
+    display: flex;
+    justify-content: end;
+}

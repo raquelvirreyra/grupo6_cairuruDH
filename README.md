@@ -4,8 +4,9 @@ Nuestra pagina web será utilizada para el manejo de pedidos y control de stock 
 Descripcion de los integrantes del equipo:
 Nuestro equipo de trabajo esta conformado por:
 - Ayelén Raquel Virreyra Ruiz
-- Florencia Villa
+- Florencia Mariel Villa
 - Martin Luciano Leonel Salas
+- Macarena Aylin Lighuen Sanchez
 
 Sitios de referencia:
 - https://latiendadelosminerales.com/ordenados-por-minerales
@@ -13,3 +14,6 @@ Sitios de referencia:
 - https://piedrasencordoba.com.ar/
 - https://www.makramon.com/productos/
 - https://www.amordehilo.com.ar/
+
+Link del tablero de trabajo:
+https://trello.com/invite/srdinox/ATTI2a5a5d7326a9fc871a4fce3361da912c94838484
