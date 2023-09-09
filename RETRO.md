@@ -7,12 +7,16 @@ Hacer más:
 - Comunicarse
 - Cumplir con las tareas asignadas.
 - Orgarnización.
+- Equilibrio de tareas.
 
 Continuar haciendo:
 - Comunicación.
+- Comprensión.
+- Ayudarse unos con otros en caso de la aparición de alguna duda.
 
 Hacer menos:
 - Faltar a clases.
+- Retrasarse con el contenido
 
 Dejar de hacer:
 - No entrar a las salas.
