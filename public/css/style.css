@@ -469,3 +469,122 @@ footer {
 .social-networks button:hover {
     background-color: #d1b991;
 }
+
+/*--------------formulario login------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-login{
+    width: 400px;
+    height: 420px;
+    background: beige;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    border: 1px solid #4c2203;
+}
+.form-login h5{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 13px;
+    height: 50px;
+    border-bottom: 1px solid #4c2203;
+    
+}
+.casilla-login{
+    width: 100%;
+   margin-bottom: 15px;
+   margin-top: 14px;
+   display: flex;
+   flex-direction: column;
+   border-radius: 10px;
+}
+.casilla-login input{
+    border-radius: 7px;
+    border: 1px solid #703104;
+    margin-top: 13px;
+    height: 30px;
+}
+
+.boton-de-envio{
+    background-color: #4c2203;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #4c2203;
+    margin-top: 25px;
+    margin-right: 10px;
+ 
+}
+.form-login p{
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-top: 20px;
+    color: #4c2203;
+}
+/*--------------formulario register------------*/
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-register{
+    width: 440px;
+    height: 600px;
+    background: beige;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    border: 1px solid #4c2203;
+}
+.form-register h5{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 13px;
+    height: 50px;
+    border-bottom: 1px solid #4c2203;
+    
+}
+.casilla-register{
+    width: 100%;
+   margin-bottom: 15px;
+   margin-top: 14px;
+   display: flex;
+   flex-direction: column;
+   border-radius: 10px;
+}
+.casilla-register input{
+    border-radius: 7px;
+    border: 1px solid #703104;
+    margin-top: 13px;
+    height: 30px;
+}
+.boton-de-register{
+    background-color: #4c2203;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #4c2203;
+    margin-top: 25px;
+    margin-right: 10px;
+ 
+}
+.form-register p{
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-top: 20px;
+    color: #4c2203;
+}
