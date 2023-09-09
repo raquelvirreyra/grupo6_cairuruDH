@@ -21,7 +21,7 @@
                     <li><a class="nav-ul-a" href="#">Sobre mí</a></li>
                 </ul>
                 <div class="nav-login">
-                    <a href="/login"><button class="my-button-style" type="submit"><i class="fa-solid fa-user"></i> Ingresá o Registrate</button></a>
+                    <button class="my-button-style" type="submit"><i class="fa-solid fa-user"></i> Ingresá o Registrate</button>
                 </div>
             </nav>
             <form class="search">
@@ -37,37 +37,33 @@
                 </div>
             </nav>
         </header>
-            
-        <main>
-        <div class="form-register">
-            <form class="/register" method="POST">
-                <h5>Registrate</h5>
-                <div class="casilla-register">
-                 <label for="text">Nombre</label>
-                 <input type="text" name="text" id="text">
+        <main class="main-product-detail">
+            <div class="prod-container">
+                <div class="prod-view">
+                    <div class="prod-img">
+                        <img src="img/pulsera-girasol-3.jpg" alt="Pulsera micromacrame con cuarzos.">
+                    </div>
+                    <div class="prod-detail">
+                        <p class="prod-title">Pulsera de Girasol - Margaritas</p>
+                        <p>Tejidas en micromacramé con Cuarzo Rosa o Amatista.</p>
+                        <p class="prod-price">$ 1.500,00</p>
+                        <button type="button" class="my-button-style"><i class="fa-solid fa-cart-shopping"></i> Agregar al carrito</button>
+                    </div>
                 </div>
-                <div class="casilla-register">
-                 <label for="text">Apellido</label>
-                 <input type="text" name="text" id="text">
+                <div class="prod-description">
+                    <p class="prod-title">Descripción</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Dolores vel tempora porro nesciunt maiores suscipit iusto, 
+                        esse iure ducimus itaque provident delectus nobis laboriosam 
+                        incidunt qui laborum adipisci blanditiis illum!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Dolores vel tempora porro nesciunt maiores suscipit iusto, 
+                        esse iure ducimus itaque provident delectus nobis laboriosam 
+                        incidunt qui laborum adipisci blanditiis illum!
+                    </p>
                 </div>
-                <div class="casilla-register">
-                  <label for="email">Correo electronico</label>
-                 <input type="email" name="email" id="email">
-                </div>
-                <div class="casilla-register">
-                 <label for="password">Contraseña</label>
-                 <input type="password" name="password" id="password">
-                </div>
-                <div class="casilla-register">
-                 <label for="password">Repetir contraseña</label>
-                 <input type="password" name="password" id="password">
-                </div>
-                <button type="submit" class="boton-de-register">Crear cuenta</button>
-                <p>¿Ya tienes una cuenta? <a href="/login"> Ingresa </a></p>
-            </form>
-        </div>
+            </div>
         </main>
-    
         <footer>
             <div class="footer-col-container">
                 <div class="footer-col">
@@ -124,6 +120,6 @@
             <div class="footer-row">
                 <p>&copy; Todos los derechos reservados.</p>
             </div>
-        </footer>   
+        </footer>
     </body>
 </html>
