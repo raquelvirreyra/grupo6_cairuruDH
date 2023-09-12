@@ -13,6 +13,9 @@ app.listen(port, () => {
 app.get('/', (req, res) => {
     res.sendFile(path.resolve(__dirname, './views/index.html'));
 });
+app.get('/mi-carrito', (req, res) => {
+    res.sendFile(path.resolve(__dirname, './views/mi-carrito.html'));
+});
 
 app.get('/register',(req,res)=>{
     res.sendFile(path.resolve(__dirname,'./views/register.html'));

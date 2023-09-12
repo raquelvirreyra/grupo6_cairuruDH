@@ -8,15 +8,20 @@
     Verde: rgb(123, 153, 79);
     Verde oscuro: rgb(90, 107, 71);
 */
-
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 @media (min-width: 0) {
     header {
         padding: 0;
     }
 
-    .main-index {
+    /* main {
         background-image: url('./../img/fondo-sm.jpg');
-    }
+    } */
 
     .nav-ul {
         display: none;
@@ -99,29 +104,119 @@
     .search button:active {
         background-color: #703104;
     }
-
-    .section-two {
-        flex-direction: column;
-        padding: 1em;
+    /********************** Carrito **********************/
+    main{
+        width: 90%;
+        margin: auto;
+    }
+    section{
+        max-width: 600px;
+        margin: auto;
+        border: rgba(76,34,3, 0.3) 2px solid;  
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        padding: 10px;
+    }
+    article{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        align-self: center;
+        padding: 5px;
+        border-top:rgba(76,34,3, 0.3) 2px solid;
+    }
+    h2{
+        padding-left: 5px;
+        font-weight: 400;
     }
 
-    .section-two .section-text .section-title {
-        text-align: center;
+    .img-prod{
+        width: 20%;
+        /* border-radius: 15px; */
     }
-
-    .section-text {
-        padding: 1em;
-        text-align: justify;
+    .header-cart {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
     }
-
-    .section-title-img {
-        padding-bottom: 1em;
+    h4{
+        display: inline-block;
+        flex-direction: row;
+        margin: 15px 0px;
+        font-weight: 400;
     }
-
-    .section-img {
-        display: none;
+    .prod {	
+        flex-grow: 0.70;
     }
-
+    .cant{
+        flex-grow: 0.15;
+    }
+    .price{
+        flex-grow: 0.15;
+    }
+    .prod,.cant,.price{
+        padding-left: 5px;
+    }
+    .description-product{
+        /* border: #4c2203 1px solid; */
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        flex-wrap: wrap;
+        width: 60%;
+    }
+    article p{
+        width: 20%;
+        align-self: center;
+    }
+    .p1,.p2{
+        /* text-align: center; */
+        padding-left: 20px;
+    }
+    li.li-cart{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 5px;
+        border-top: 2px solid rgb(76,34,3,0.3);
+        font-size: 12px;
+    }
+    .button-pay {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 25%;
+        height: 30px;
+        background-color: #703104;
+        color: white;
+        border: none;
+        border-radius: 7px;
+    }
+    .button-pay:hover{
+        background-color: #4c2203;
+        transition: 250ms;
+    }
+    .a-cart{
+        text-decoration: none;
+        color: grey;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 15px;
+        font-size: 10px;
+        text-decoration: underline;
+    }
+    .a-cart:hover{
+        font-size: 12px;
+        transition: 150ms;
+    }
     footer {
         padding: 2em 2em 1em 2em;
     }
@@ -135,22 +230,11 @@
         width: calc(50% - 20px); 
         margin: 10px; 
     }
-
-    .prod-container {
-        padding-top: 2em;
-        width: 90%;
-    }
-
-    .prod-img,
-    .prod-detail {
-        margin-bottom: 1em;
-    }
 }
- 
 @media (min-width: 768px) {
-    .main-index {
+    /* main {
         background-image: url('./../img/fondo-md.jpg');
-    }
+    } */
 
     .nav-img img {
         height: 6em;
@@ -219,29 +303,12 @@
     .footer-col {
         width: calc(25% - 20px);
     }
-
-    .prod-view {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        margin: 0 -10px;
-    }
-
-    .prod-img {
-        width: calc(50% - 20px); 
-        margin: 10px;
-    }
-
-    .prod-detail {
-        width: calc(50% - 20px); 
-        margin: 10px;
-    }
 }
 
 @media (min-width: 992px) {
-    .main-index {
+    /* main {
         background-image: url('./../img/banner.jpg');
-    }
+    } */
 
     .nav-container {
         flex-direction: row;
@@ -302,11 +369,6 @@
     .my-article {
         width: calc(25% - 20px);
     }
-
-    .prod-container {
-        padding: 0;
-        width: 70%;
-    }
 }
 
 *{
@@ -316,7 +378,7 @@
     box-sizing: border-box;
 }
 
-.main-index {
+main {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -503,163 +565,4 @@ footer {
 
 .social-networks button:hover {
     background-color: #d1b991;
-}
-
-/*-----------------------------------------------formulario login-------------------------------------*/
-.form-login{
-    width: 400px;
-    height: 450px;
-    background: beige;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    padding: 20px 30px;
-    border-radius: 20px;
-    border: 1px solid #4c2203;
-}
-.form-login h5{
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 13px;
-    height: 50px;
-    border-bottom: 1px solid #4c2203;
-    
-}
-.casilla-login{
-    width: 100%;
-   margin-bottom: 15px;
-   margin-top: 14px;
-   display: flex;
-   flex-direction: column;
-   border-radius: 10px;
-}
-.casilla-login input{
-    border-radius: 7px;
-    border: 1px solid #703104;
-    margin-top: 3px;
-    height: 28px;
-}
-
-.boton-de-envio{
-    background-color: #4c2203;
-    color: white;
-    font-size: 16px;
-    width: 100%;
-    height: 38px;
-    border-radius: 10px;
-    border: 1px solid #4c2203;
-    margin-top: 20px;
-    margin-bottom: 10px;
- 
-}
-.form-login p{
-    font-size: 12px;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    margin-top: 12px;
-    color: #4c2203;
-}
-/*----------------------------formulario register-----------------------------------------------*/
-
-.form-register{
-    width: 440px;
-    height: 600px;
-    background: beige;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    padding: 20px 30px;
-    border-radius: 20px;
-    border: 1px solid #4c2203;
-}
-.form-register h5{
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 10px;
-    height: 40px;
-    border-bottom: 1px solid #4c2203;
-    
-}
-.casilla-register{
-    width: 100%;
-   margin-bottom: 8px;
-   margin-top: 5px;
-   display: flex;
-   flex-direction: column;
-   border-radius: 10px;
-}
-.casilla-register input{
-    border-radius: 7px;
-    border: 1px solid #703104;
-    margin-top: 6px;
-    height: 27px;
-}
-.recordar-datos{
-    font-size: 13px;
-}
-.boton-de-register{
-    background-color: #4c2203;
-    color: white;
-    font-size: 16px;
-    width: 100%;
-    height: 40px;
-    border-radius: 10px;
-    border: 1px solid #4c2203;
-    margin-top: 25px;
-    margin-right: 10px;
- 
-}
-.form-register p{
-    font-size: 15px;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    margin-top: 20px;
-    color: #4c2203;
-}
-
-/* PRODUCT DETAIL */
-.main-product-detail {
-    display: flex;
-    justify-content: center;
-}
-
-.prod-container {
-    margin-bottom: 3em;
-}
-
-.prod-img {
-    box-shadow: 0px 0px 10px #bcb1a8;
-}
-
-.prod-img img {
-    padding: 1em;
-    width: 100%;
-}
-
-.prod-detail {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 2em;
-    box-shadow: 0px 0px 10px #bcb1a8;
-    text-align: center;
-}
-
-.prod-description {
-    padding: 1em;
-    box-shadow: 0px 0px 10px #bcb1a8;
-}
-
-.prod-title {
-    font-size: 20px;
-    padding-bottom: 1em;
-}
-
-.prod-price {
-    padding: 1em 0 1em 0;
-    font-size: 20px;
-    color: rgb(52, 74, 28);
 }
