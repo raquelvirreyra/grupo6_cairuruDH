@@ -1,0 +1,120 @@
+@media (max-width: 360px)
+{
+    .form-register{
+    width: 250px;
+    height: 550px;
+    background: beige;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    border: 1px solid #4c2203;
+}
+.form-register h5{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 40px;
+    border-bottom: 1px solid #4c2203;
+    
+}
+.casilla-register{
+    width: 100%;
+   margin-bottom: 8px;
+   margin-top: 5px;
+   display: flex;
+   flex-direction: column;
+   border-radius: 10px;
+}
+.casilla-register input{
+    border-radius: 7px;
+    border: 1px solid #703104;
+    margin-top: 6px;
+    height: 27px;
+}
+.recordar-datos{
+    font-size: 13px;
+}
+.boton-de-register{
+    background-color: #4c2203;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #4c2203;
+    margin-top: 25px;
+    margin-right: 10px;
+ 
+}
+.form-register p{
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-top: 20px;
+    color: #4c2203;
+}
+}
+@media (min-width: 361px)
+{
+    
+.form-register{
+    width: 440px;
+    height: 600px;
+    background: beige;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    border: 1px solid #4c2203;
+}
+.form-register h5{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 40px;
+    border-bottom: 1px solid #4c2203;
+    
+}
+.casilla-register{
+    width: 100%;
+   margin-bottom: 8px;
+   margin-top: 5px;
+   display: flex;
+   flex-direction: column;
+   border-radius: 10px;
+}
+.casilla-register input{
+    border-radius: 7px;
+    border: 1px solid #703104;
+    margin-top: 6px;
+    height: 27px;
+}
+.recordar-datos{
+    font-size: 13px;
+}
+.boton-de-register{
+    background-color: #4c2203;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #4c2203;
+    margin-top: 25px;
+    margin-right: 10px;
+ 
+}
+.form-register p{
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-top: 20px;
+    color: #4c2203;
+}
+
+}
