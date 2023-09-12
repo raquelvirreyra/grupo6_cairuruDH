@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/login.css">
+        <title>Cairurú</title>
+    </head>
+    <body>
+        <header>
+            <nav class="nav-container">
+                <div class="nav-img">
+                    <a href="/"><img src="img/logo1v2.png" alt="Logo Cairurú"></a></a>
+                </div>
+                <ul class="nav-ul">
+                    <li><a class="nav-ul-a" href="/">Inicio</a></li>
+                    <li><a class="nav-ul-a" href="#">Tienda</a></li>
+                    <li><a class="nav-ul-a" href="#">Diseños personalizados</a></li>
+                    <li><a class="nav-ul-a" href="#">Cuidado de tu joya</a></li>
+                    <li><a class="nav-ul-a" href="#">Sobre mí</a></li>
+                </ul>
+                <div class="nav-login">
+                    <a href="/login"><button class="my-button-style" type="submit"><i class="fa-solid fa-user"></i> Ingresá o Registrate</button></a>
+                </div>
+            </nav>
+            <form class="search">
+                <input type="text" placeholder="Buscar..." minlength="3" required>
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <nav class="nav-sm">
+                <div class="menu">
+                    <button type="menu" class="nav-sm-button"><i class="fa-solid fa-bars"></i></button>
+                </div>
+                <div class="shopping-cart">
+                    <button type="menu" class="nav-sm-button"><i class="fa-solid fa-cart-shopping"></i> 0</button>
+                </div>
+            </nav>
+        </header>
+        <main>
+
+         <div class="form-login">
+            <form class="/login" method="POST">
+                <h5>Iniciar sesión</h5>
+                <div class="casilla-login">
+                <label for="text">Nombre de usuario</label>
+                <input type="text" name="text" id="text">
+                </div>
+                <div class="casilla-login">
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" id="password">
+                </div>
+                <div class="recordar-datos">
+                <label><input type="checkbox"> Recordar usuario y contraseña</label>
+                </div>
+                <button type="submit" class="boton-de-envio">Ingresar</button>
+                <p>¿Olvidaste tu contraseña? <a href="#">Recuperar</a></p>
+                <p>¿No tienes una cuenta? <a href="/register">Registrate</a></p>
+            </form>
+         </div>
+
+        </main>
+
+        <footer>
+            <div class="footer-col-container">
+                <div class="footer-col">
+                    <span>Menú</span>
+                    <ul>
+                       <li><a href="/">Inicio</a></li> 
+                       <li><a href="#">Tienda</a></li> 
+                       <li><a href="#">Diseños personalizados</a></li> 
+                       <li><a href="#">Cuidado de tu joya</a></li> 
+                       <li><a href="#">Sobre mí</a></li> 
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <span>Tienda</span>
+                    <ul>
+                        <li><a href="#">Anillos</a></li> 
+                        <li><a href="#">Aros</a></li> 
+                        <li><a href="#">Colgantes</a></li> 
+                        <li><a href="#">Collares</a></li> 
+                        <li><a href="#">Personalizados</a></li> 
+                        <li><a href="#">Pulseras</a></li> 
+                        <li><a href="#">Chokers/Tiaras</a></li> 
+                        <li><a href="#">Tobilleras</a></li> 
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <span>Privacidad</span>
+                    <ul>
+                        <li><a href="#">Política de privacidad</a></li> 
+                        <li><a href="#">Aviso legal</a></li> 
+                        <li><a href="#">Términos y condiciones</a></li> 
+                        <li><a href="#">Política de devoluciones</a></li> 
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <span>Redes</span>
+                    <div class="social-networks">
+                        <a href="https://www.facebook.com/cairuru.macrame" target="_blank"><button type="button"><i class="fa-brands fa-facebook-f"></i></button></a>
+                        <a href="https://www.instagram.com/cairuru.artesanias/" target="_blank"><button type="button"><i class="fa-brands fa-instagram"></i></button></a>
+                    </div>
+                    <span>Medios de pago</span>
+                    <div class="payments">
+                        <img src="img/efectivo2.png" alt="">
+                        <img src="img/mercado-pago.jpg" alt="">
+                        <img src="img/rapipago.png" alt="">
+                        <img src="img/pago-facil.png" alt="">
+                    </div>
+                    <span>Envíos en Argentina </span>
+                    <div class="shipments">
+                        <img src="img/correo-argentino.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-row">
+                <p>&copy; Todos los derechos reservados.</p>
+            </div>
+        </footer>   
+    </body>
+</html>
