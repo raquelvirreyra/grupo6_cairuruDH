@@ -16,3 +16,15 @@ app.get('/', (req, res) => {
 app.get('/mi-carrito', (req, res) => {
     res.sendFile(path.resolve(__dirname, './views/mi-carrito.html'));
 });
+
+app.get('/register',(req,res)=>{
+    res.sendFile(path.resolve(__dirname,'./views/register.html'));
+});
+
+app.get('/login',(req,res)=>{
+    res.sendFile(path.resolve(__dirname,'./views/login.html'));
+});
+
+app.get('/productdetail', (req, res) => {
+    res.sendFile(path.resolve(__dirname, './views/productDetail.html'));
+})
