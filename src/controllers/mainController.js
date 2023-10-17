@@ -12,5 +12,8 @@ const mainController ={
     productDetail: (req, res) => {
         res.render('productDetail',{})
      },
+    miCarrito: (req, res) => {
+      res.render('miCarrito',{})
+   },
 }
 module.exports = mainController;

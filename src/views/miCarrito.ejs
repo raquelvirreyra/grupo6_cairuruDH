@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylesCart.css">
+    <title>Mi carrito</title>
+</head>
+<body>
+    <%- include('./partials/headerP.ejs') %>
+    <main>
+        <section>
+            <!----------------- Propuesta 1 ----------------->
+            <h2>Mi carrito</h2>
+            <div class="header-cart">
+                <h4 class="prod">Productos</h4>
+                <h4 class="cant">Cantidad</h4>
+                <h4 class="price">Precio</h4>
+            </div>
+            <article>
+                <div class="description-product">
+                    <img src="img/pulseras.jpg" alt="product" class="img-prod">
+                    <p>Pulsera</p>
+                </div>
+                <p class="p1">2</p>
+                <p class="p2">$7000</p>
+            </article>
+            <article>
+                <div class="description-product">
+                    <img src="img/pulseras.jpg" alt="product" class="img-prod">
+                    <p>Pulsera</p>
+                </div>
+                <p class="p1">2</p>
+                <p class="p2">$7000</p>
+            </article>
+            <ul>
+                <li class="li-cart">
+                    <p>Subtotal</p>
+                    <p>$0000</p>
+                </li>
+                <li class="li-cart">
+                    <p>Envio</p>
+                    <p>$0000</p>
+                </li>
+                <li class="li-cart">
+                    <p>Total</p>
+                    <p>$0000</p>
+                </li>
+            </ul>
+            <br>
+            <button type="button" class="button-pay">Pagar</button>
+            <a href="/" class="a-cart">Ver más productos</a>
+        </section>
+    </main>
+    <%- include('./partials/footerP.ejs') %>
+</body>
+</html>
