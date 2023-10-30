@@ -9,7 +9,35 @@
     <title>Mi carrito</title>
 </head>
 <body>
-    <%- include('./partials/headerP.ejs') %>
+    <header>
+        <nav class="nav-container">
+            <div class="nav-img">
+                <a href="/"><img src="img/logo1v2.png" alt="Logo Cairurú"></a></a>
+            </div>
+            <ul class="nav-ul">
+                <li><a class="nav-ul-a" href="/">Inicio</a></li>
+                <li><a class="nav-ul-a" href="#">Tienda</a></li>
+                <li><a class="nav-ul-a" href="#">Diseños personalizados</a></li>
+                <li><a class="nav-ul-a" href="#">Cuidado de tu joya</a></li>
+                <li><a class="nav-ul-a" href="#">Sobre mí</a></li>
+            </ul>
+            <div class="nav-login">
+                <button class="my-button-style" type="submit"><i class="fa-solid fa-user"></i> Ingresá o Registrate</button>
+            </div>
+        </nav>
+        <form class="search">
+            <input type="text" placeholder="Buscar..." minlength="3" required>
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <nav class="nav-sm">
+            <div class="menu">
+                <button type="menu" class="nav-sm-button"><i class="fa-solid fa-bars"></i></button>
+            </div>
+            <div class="shopping-cart">
+                <button type="menu" class="nav-sm-button"><a href="/mi-carrito"><i class="fa-solid fa-cart-shopping"></i></a></button>
+            </div>
+        </nav>
+    </header>
     <main>
         <section>
             <!----------------- Propuesta 1 ----------------->
