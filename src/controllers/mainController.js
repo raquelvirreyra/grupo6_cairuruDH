@@ -1,4 +1,9 @@
+const fs = require('fs');
 const path = require('path');
+
+const productsFilePath = path.join(__dirname, '../database/products.json');
+const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf8'));
+
 const mainController ={
     index: (req, res) => {
        res.render('index',{})
@@ -15,5 +20,8 @@ const mainController ={
     miCarrito: (req, res) => {
       res.render('miCarrito',{})
    },
+    products: (req, res) => {
+      res.render('products', {})
+    },
 }
 module.exports = mainController;

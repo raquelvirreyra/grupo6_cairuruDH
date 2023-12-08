@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Cairurú</title>
+    </head>
+    <body>
+        <%- include('./partials/headerP.ejs') %>
+        <main class="main-index">
+            <body>
+                <h1>Lista de Productos</h1>
+                <div id="productList"></div>
+            
+                <script>
+                    fetch('../database/products.json')
+                        .then(response => response.json())
+                        .then(data => {
+                            const productListDiv = document.getElementById('productList');
+                            data.forEach(product => {
+                                const productDiv = document.createElement('div');
+                                productDiv.innerHTML = `
+                                    <h2>${product.name}</h2>
+                                    <p><strong>Descripción:</strong> ${product.description}</p>
+                                    <p><strong>Categoría:</strong> ${product.category}</p>
+                                    <p><strong>Colores:</strong> ${product.colors.join(', ')}</p>
+                                    <p><strong>Precio:</strong> $${product.price}</p>
+                                    <img src="${product.image}" alt="${product.name}" style="max-width: 200px; max-height: 200px;"> 
+                                    <hr>
+                                     `; 
+                                    productListDiv.appendChild(productDiv); 
+                                });
+                        }) 
+                        .catch(error => console.error('Error al cargar los productos', error));
+                </script>
+        </main>
+        <%- include('./partials/footerP.ejs') %>
+    </body>
+</html>

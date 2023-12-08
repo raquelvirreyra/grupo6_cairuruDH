@@ -41,3 +41,37 @@ Si se encontro con algún impedimiento:
 
 Qué va a hacer hoy:
 - Separar las vistas en carpetas.
+
+** SPRINT 3**
+Raquel Virreyra
+
+Qué hizo ayer:
+- el archivo json de productos
+
+Si se encontró con algún impedimento:
+- tiempo de desarrollo
+
+Qué va a hacer hoy:
+- crud
+
+Florencia Villa
+
+Qué hizo ayer.
+- archivo json de users.
+
+Si se encontró con algún impedimento.
+- organizacion con el tiempo.
+
+Qué va a hacer hoy.
+- listado de products.
+
+Martin Salas
+
+Qué hizo ayer:
+- actualizar el tablero de trabajo.
+
+Si se encontró con algún impedimento:
+- manejo del tiempo.
+
+Qué va a hacer hoy:
+- empezar con crud.
